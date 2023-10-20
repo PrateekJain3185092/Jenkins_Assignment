@@ -23,7 +23,7 @@ public class openBrowser
 		driver.get("https://www.google.com/");
 		driver.findElement(By.name("q")).sendKeys("Youtube",Keys.ENTER);
 		System.out.println(driver.getTitle());
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		driver.quit();
 	}
 }
