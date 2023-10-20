@@ -13,13 +13,6 @@ pipeline{
         git branch:'master', changelog:false, poll:false, url:'https://github.com/PrateekJain3185092/Jenkins_Assignment.git'
       }
     }
-      stage("Stage-2 compile the given code pls")
-      {
-        steps
-        {
-          bat "mvn compile"
-        }
-      }
         stage ("Test my code pl")
         {
           steps{
